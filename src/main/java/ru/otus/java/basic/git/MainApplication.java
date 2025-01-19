@@ -11,7 +11,7 @@ public class MainApplication {
             int a = scanner.nextInt();
             System.out.println("Введите второе число: ");
             int b = scanner.nextInt();
-            System.out.println("Введите номер операции: 1 +, 2 -, 3 *");
+            System.out.println("Введите номер операции: \n1 +, \n2 -, \n3 *");
             int operation = scanner.nextInt();
             int result = 0;
             if (operation == 1) {
