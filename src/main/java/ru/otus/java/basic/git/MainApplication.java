@@ -23,7 +23,7 @@ public class MainApplication {
                 System.out.println(a + " * " + b + " = " + result);
                 System.out.println("Хотите ли вы выполнить ещё одну операцию?");
                 String answer = scanner.next();
-                if (!answer.equals("y")) {
+                if (!answer.equalsIgnoreCase("y")) {
                     break;
                 }
             }
