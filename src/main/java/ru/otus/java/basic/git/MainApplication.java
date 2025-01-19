@@ -12,14 +12,15 @@ public class MainApplication {
             int b = scanner.nextInt();
             System.out.println("Введите номер операции: 1 +, 2 -, 3 *");
             int operation = scanner.nextInt();
+            int result = 0;
             if (operation == 1) {
-                int result = a + b;
+                result = a + b;
                 System.out.println(a + " + " + b + " = " + result);
             } else if (operation == 2) {
-                int result = a - b;
+                result = a - b;
                 System.out.println(a + " - " + b + " = " + result);
             } else if (operation == 3) {
-                int result = a * b;
+                result = a * b;
                 System.out.println(a + " * " + b + " = " + result);
                 System.out.println("Хотите ли вы выполнить ещё одну операцию?");
                 String answer = scanner.next();
