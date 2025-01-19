@@ -21,14 +21,13 @@ public class MainApplication {
             } else if (operation == 3) {
                 int result = a * b;
                 System.out.println(a + " * " + b + " = " + result);
-                System.out.println("Хотите ли вы выполнить ещё одну операцию?");
-                String answer = scanner.next();
-                if (!answer.equalsIgnoreCase("y")) {
-                    break;
-                }
+            System.out.println("Хотите ли вы выполнить ещё одну операцию?");
+            String answer = scanner.next();
+            if (!answer.equals("y")) {
+                break;
             }
-            System.out.println("Работа калькулятора завершена!");
-            scanner.close();
         }
+        System.out.println("Работа калькулятора завершена!");
+        scanner.close();
     }
 }
